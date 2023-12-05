@@ -50,7 +50,7 @@ sheets = service.spreadsheets() """
 
 # Constantes
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SPREADSHEET_ID = '1AZIGMqBmzAqVZzGbZDQdKUK_R9xVk7iuPrZ-0es5Bi4'
+SPREADSHEETS_ID = '1AZIGMqBmzAqVZzGbZDQdKUK_R9xVk7iuPrZ-0es5Bi4'
 
 # Decodificar las credenciales codificadas en base64 de la variable de entorno
 creds_json = base64.b64decode(os.environ['GOOGLE_SHEETS_CREDS_BASE64']).decode('utf-8')
