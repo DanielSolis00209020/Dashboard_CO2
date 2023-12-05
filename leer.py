@@ -554,4 +554,4 @@ def create_flux_vs_distance_graph(df2_cleaned, selected_dates):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 8050)))
